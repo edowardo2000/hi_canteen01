@@ -1,0 +1,76 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "splitBill",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "reqReq",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "emailAcc",
+          "arrayConfig": "CONTAINS"
+        },
+        {
+          "fieldPath": "timestamp",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "friendReq",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "reqReq",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "emailAcc",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "timestamp",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "order",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "uid_canteen",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "statusorder",
+          "order": "DESCENDING"
+        },
+        {
+          "fieldPath": "timeorder",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "order",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "uid_canteen",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "statusorder",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "timeorder",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "71534854484",
+    "project_id": "hicanteen01",
+    "storage_bucket": "hicanteen01.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:71534854484:android:fba8a8b0b9392429cd08c1",
+        "android_client_info": {
+          "package_name": "com.flutterflow.hicanteen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "71534854484-im40gj4e10v93vpnrbiig9hamc6gslbt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAniJ5BHKigeYn8gRqMjC8ZsQMk0GX807A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "71534854484-im40gj4e10v93vpnrbiig9hamc6gslbt.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "71534854484-9fh3p086t247ntm2nv3vaqrv1fid46i1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.flutterflow.hicanteen"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
